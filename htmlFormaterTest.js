@@ -1,6 +1,6 @@
 'use strict';
 
-var formatFeedsWithHtmlTags = require('./htmlFormatter.js');
+var formatFeedsWithHtmlTags = require('./html_tag_formatter/htmlFormatter.js');
 //Module1 output
 const feedString =
   'Obama visited Facebook headquarters: http://bit.ly/xyz @elversatile';
