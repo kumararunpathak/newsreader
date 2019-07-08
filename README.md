@@ -2,9 +2,9 @@ This module appends html tags to the string feeds.
 
 It contains 3 Javascript file
 
-1 HtmlFormater: This acts as controller for the conversion. It uses validator.js for the input validation and format.js for actual conversion for the element types. 
+1. HtmlFormater: This acts as controller for the conversion. It uses validator.js for the input validation and format.js for actual conversion for the element types. 
 
-2 Validator: This validates users input 
+2. Validator: This validates users input 
 
 3. Formater: This appends to tags to the strings
 
