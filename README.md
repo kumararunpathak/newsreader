@@ -1,26 +1,21 @@
-Social News READER 3rd Module
+This module appends proper html tags to the string feeds.
 
-This exercise is to convert feeds string to the string with proper html tag.
+It contains 3 Javascript file
 
-It has 3 module:
+1 HtmlFormater: This acts as controller for the conversion. It uses validator.js for the input validation and format.js for actual conversion for the element types. 
 
-1 HtmlFormater: this module iterate with element types and converts string to formatted html string. This module also use validator and format module to validate the input and convert to proper feeds string with HtmlTags
+2 Validator: This validates users input 
 
-2. Validator: This module validates the inputs
+3. Formater: This appends to tags to the strings
 
-3. Formater: this actually contains the actual implementation for formating elements. For every element type there should be an implementation.
-
-To run this exercise we need nodejs
 
 ##Steps to Run:
-Go to folder newsreader.
 
-Test on the terminal then run below command. Edit htmlFormaterTest.js for different input.
+Dependencies: Node.js
 
-node htmlFormaterTest.js
+Test on the Terminal: Edit htmlFormaterTest.js for different input and run below command
+  * node htmlFormaterTest.js
 
-To check in the browser run below command. Edit app.js for different inputs
-
-node app.js
-
-and open http://localhost:8080 in the browser to see the formatted text
+Test in Browser: Edit app.js for different inputs and run below command.
+  * node app.js
+  * Open http://localhost:8080 in the browser to see the formatted text
