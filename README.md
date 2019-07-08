@@ -1,4 +1,4 @@
-This module appends proper html tags to the string feeds.
+This module appends html tags to the string feeds.
 
 It contains 3 Javascript file
 
